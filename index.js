@@ -7,6 +7,6 @@ app.get('/', (_req, res) => {
   res.send('Hello world!')
 })
 
-app.listen(3001, () => {
+app.listen(3000, () => {a
   console.log('Server is listening on 3001 port')
 })
