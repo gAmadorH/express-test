@@ -17,6 +17,7 @@ $ cd express-test
 ## run
 
 ```
+$ npm i
 $ npm start
 $ # output
 $ Server is listening on 3000 port
