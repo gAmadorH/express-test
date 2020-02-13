@@ -38,7 +38,7 @@ then you can make a request on: [http://localhost:3000/](http://localhost:3000/)
 * the content in index.js is:
 
  ```
- 'use strict'
+'use strict'
 
 const express = require('express')
 const app = express()
@@ -50,6 +50,7 @@ app.get('/', (_req, res) => {
 app.listen(3000, () => {
   console.log('Server is listening on 3000 port')
 })
+
  ```
 
  * modificate the package.json file in the `scripts` session and add the `start` script
