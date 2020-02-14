@@ -2,9 +2,9 @@
   "name": "express-test",
   "version": "1.0.0",
   "description": "The most commont and simple express.js example",
-  "main": "index.js",
+  "main": "src/",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/"
   },
   "author": "gAmadorH <gamadorh93@gmail.com>",
   "license": "MIT",
