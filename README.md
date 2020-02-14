@@ -30,12 +30,13 @@ then you can make a request on: [http://localhost:3000/](http://localhost:3000/)
 * create the project
 ```
  $ mkdir express-test && cd $_
+ $ mkdir src
  $ npm init -y
  $ npm i -S express
- $ touch index.js
+ $ touch src/index.js
  ```
 
-* the content in index.js is:
+* the content in src/index.js is:
 
  ```
 'use strict'
@@ -53,11 +54,17 @@ app.listen(3000, () => {
 
  ```
 
+* modificate the package.json file in the `main` property
+
+ ```
+  "main": "src/"
+ ```
+ 
  * modificate the package.json file in the `scripts` session and add the `start` script
 
  ```
  "scripts": {
-    "start": "node index.js"
+    "start": "node src/"
   },
  ```
 
